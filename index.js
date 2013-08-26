@@ -1,4 +1,3 @@
-
 var next = require('next-tick');
 
 
@@ -30,7 +29,7 @@ function callback (fn) {
 
 callback.async = function (fn, wait) {
   if ('function' !== typeof fn) return;
-  if (!wait) next(fn);
+  if (!wait) return next(fn);
   setTimeout(fn, wait);
 };
 
