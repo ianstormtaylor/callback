@@ -1,6 +1,6 @@
 # callback
 
-  Sugar for nicely calling back functions, while [maintaining sanity](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony).
+  Sugar for couthly calling functions back, while [maintaining sanity](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony).
 
 ## Installation
 
